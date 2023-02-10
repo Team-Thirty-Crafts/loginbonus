@@ -5,6 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Main extends JavaPlugin {
 
+    JavaPlugin plugin = this;
     @Override
     public void onEnable() {
         // Plugin startup logic
