@@ -1,0 +1,6 @@
+name: Loginbonus
+version: '${project.version}'
+main: jp.thirtycraft.loginbonus.Loginbonus
+api-version: 1.19
+authors: [ kurana0b ]
+description: ログインボーナスプラグイン
