@@ -16,8 +16,8 @@ import java.util.Random;
 public class LoginBonus implements Listener {
     private Map<Player, Date> lastLoginTime = new HashMap<>();
     private Material[] materials = {
-
-    };
+            Material.IRON_INGOT
+    }; // Material.(ItemID)
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
