@@ -16,7 +16,19 @@ import java.util.Random;
 public class LoginBonus implements Listener {
     private Map<Player, Date> lastLoginTime = new HashMap<>();
     private Material[] materials = {
-            Material.IRON_INGOT
+            Material.IRON_INGOT,
+            Material.GOLD_INGOT,
+            Material.DIAMOND,
+            Material.NETHERITE_INGOT,
+            Material.EMERALD,
+            Material.STICK,
+            Material.GOLDEN_APPLE,
+            Material.COAL,
+            Material.CHARCOAL,
+            Material.LAPIS_LAZULI,
+            Material.QUARTZ,
+            Material.ENDER_PEARL,
+            Material.APPLE
     }; // Material.(ItemID)
 
     @EventHandler
@@ -39,4 +51,3 @@ public class LoginBonus implements Listener {
         lastLoginTime.put(player, now);
     }
 }
-
