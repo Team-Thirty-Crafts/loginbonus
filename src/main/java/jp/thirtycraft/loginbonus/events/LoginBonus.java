@@ -22,13 +22,13 @@ public class LoginBonus implements Listener {
             Material.NETHERITE_INGOT,
             Material.EMERALD,
             Material.STICK,
-            Material.GOLDEN_APPLE,
             Material.COAL,
             Material.CHARCOAL,
             Material.LAPIS_LAZULI,
             Material.QUARTZ,
             Material.ENDER_PEARL,
-            Material.APPLE
+            Material.APPLE,
+            Material.GOLDEN_APPLE
     }; // Material.(ItemID)
 
     @EventHandler
